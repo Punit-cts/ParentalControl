@@ -8,7 +8,14 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomEmailTextField" customModule="ParentalControl" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="jNm-7V-So2" id="vCu-2C-RoE"/>
+                <outlet property="emailErrorLabel" destination="BwZ-yt-lt6" id="vOJ-OO-2qu"/>
+                <outlet property="emailLabel" destination="H2B-xi-jmr" id="yvu-ke-yXe"/>
+                <outlet property="emailTextField" destination="E41-dM-tML" id="yNO-Tx-Xe5"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="jNm-7V-So2">
             <rect key="frame" x="0.0" y="0.0" width="417" height="244"/>

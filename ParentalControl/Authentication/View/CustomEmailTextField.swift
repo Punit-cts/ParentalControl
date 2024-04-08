@@ -10,6 +10,7 @@ class CustomEmailTextField: UIView {
     
     let custompasswordtxtfield = CustomPasswordTextField()
 
+    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var emailErrorLabel: UILabel!
     @IBOutlet weak var emailTextField: UITextField!

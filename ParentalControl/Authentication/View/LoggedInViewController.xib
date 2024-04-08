@@ -17,28 +17,36 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oej-dV-7hv">
-                    <rect key="frame" x="34" y="364" width="327" height="100"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oej-dV-7hv">
+                    <rect key="frame" x="34" y="266" width="327" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Hph-If-Xad"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="55"/>
                     <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                 </textField>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Verify OTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OP4-NA-11P">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Verify OTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OP4-NA-11P">
                     <rect key="frame" x="34" y="136" width="304" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="pzH-C9-shC"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                     <color key="textColor" red="0.12688566209999999" green="0.31438164229999999" blue="0.64497422680000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtM-gX-Zp1">
-                    <rect key="frame" x="55" y="513" width="283" height="35"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtM-gX-Zp1">
+                    <rect key="frame" x="55" y="416" width="283" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="4e5-7V-QjO"/>
+                    </constraints>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Verify OTP" subtitle="" cornerStyle="capsule"/>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A six-numbered OTP will be delivered" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-E9-hVg">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A six-numbered OTP will be delivered" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-E9-hVg">
                     <rect key="frame" x="34" y="199" width="304" height="17"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="3at-eb-F1v"/>
+                    </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
@@ -46,6 +54,20 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" red="0.81346767070000003" green="0.99063362880000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="wPT-E9-hVg" firstAttribute="top" secondItem="OP4-NA-11P" secondAttribute="bottom" constant="19" id="Bz3-iH-2t9"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="oej-dV-7hv" secondAttribute="trailing" constant="32" id="DWd-MJ-jED"/>
+                <constraint firstItem="WtM-gX-Zp1" firstAttribute="top" secondItem="oej-dV-7hv" secondAttribute="bottom" constant="50" id="JGQ-Pg-hhM"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="WtM-gX-Zp1" secondAttribute="trailing" constant="55" id="K3W-Hh-Pk4"/>
+                <constraint firstItem="OP4-NA-11P" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="Nj3-M8-Phk"/>
+                <constraint firstItem="oej-dV-7hv" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="Vs9-tk-Jhh"/>
+                <constraint firstItem="OP4-NA-11P" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="77" id="b3y-3I-SKI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="OP4-NA-11P" secondAttribute="trailing" constant="55" id="bVy-9o-oM8"/>
+                <constraint firstItem="WtM-gX-Zp1" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="55" id="e6N-UU-hue"/>
+                <constraint firstItem="wPT-E9-hVg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="34" id="gJq-bi-ftQ"/>
+                <constraint firstItem="oej-dV-7hv" firstAttribute="top" secondItem="wPT-E9-hVg" secondAttribute="bottom" constant="50" id="liI-dT-ba2"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="wPT-E9-hVg" secondAttribute="trailing" constant="55" id="qlN-ik-Kmj"/>
+            </constraints>
             <point key="canvasLocation" x="-73" y="20"/>
         </view>
     </objects>

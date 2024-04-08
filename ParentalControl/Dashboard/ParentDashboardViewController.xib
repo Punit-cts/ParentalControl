@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ParentDashboardViewController" customModule="ParentalControlSoftware" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E8w-FK-CVt" customClass="DashboardStatsView" customModule="ParentalControlSoftware" customModuleProvider="target">
+                    <rect key="frame" x="32" y="186" width="329" height="195"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="195" id="iXq-wc-emY"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ooS-Qc-jAQ">
+                    <rect key="frame" x="32" y="557" width="329" height="195"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="195" id="OcB-aM-npN"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skz-VU-xmo">
+                    <rect key="frame" x="32" y="423" width="329" height="90"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="90" id="qwb-3h-lMK"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2j-33-Qtg">
+                    <rect key="frame" x="326" y="124" width="51" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="51" id="37n-Cd-nIK"/>
+                        <constraint firstAttribute="height" constant="35" id="uyl-Mh-yRV"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="gearshape.fill" catalog="system"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="OKv-NQ-Q6z">
+                    <rect key="frame" x="113" y="770" width="167" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Help and Support?">
+                        <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.81346767070000003" green="0.99063362880000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="K2j-33-Qtg" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="65" id="RT2-dV-TGa"/>
+                <constraint firstItem="skz-VU-xmo" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="VE2-ZK-H54"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="skz-VU-xmo" secondAttribute="trailing" constant="32" id="XYC-ES-GHQ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="E8w-FK-CVt" secondAttribute="trailing" constant="32" id="YAS-Er-Pm5"/>
+                <constraint firstItem="E8w-FK-CVt" firstAttribute="top" secondItem="K2j-33-Qtg" secondAttribute="bottom" constant="27" id="fTe-em-v5U"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="K2j-33-Qtg" secondAttribute="trailing" constant="16" id="jgg-w7-LR5"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ooS-Qc-jAQ" secondAttribute="trailing" constant="32" id="lkp-QO-BtA"/>
+                <constraint firstItem="E8w-FK-CVt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="q1G-Nm-yOQ"/>
+                <constraint firstItem="skz-VU-xmo" firstAttribute="top" secondItem="E8w-FK-CVt" secondAttribute="bottom" constant="42" id="q8n-4f-uif"/>
+                <constraint firstItem="ooS-Qc-jAQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="t5t-dv-9RT"/>
+                <constraint firstItem="ooS-Qc-jAQ" firstAttribute="top" secondItem="skz-VU-xmo" secondAttribute="bottom" constant="44" id="uDD-1p-5CD"/>
+                <constraint firstItem="OKv-NQ-Q6z" firstAttribute="top" secondItem="ooS-Qc-jAQ" secondAttribute="bottom" constant="18" id="wN3-jm-RJl"/>
+            </constraints>
+            <point key="canvasLocation" x="332" y="6"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -9,6 +9,7 @@ import UIKit
 
 class CustomPasswordTextField: UIView{
     
+    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var passwordVisibilityButton: UIButton!
     @IBOutlet weak var passwordLabel: UILabel!
     @IBOutlet weak var passwordTextField: UITextField!
