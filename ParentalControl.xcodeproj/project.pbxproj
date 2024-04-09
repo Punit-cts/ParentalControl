@@ -17,33 +17,6 @@
 		4910C1052BB137DF00576A77 /* ParentalControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C1042BB137DF00576A77 /* ParentalControlTests.swift */; };
 		4910C10F2BB137DF00576A77 /* ParentalControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C10E2BB137DF00576A77 /* ParentalControlUITests.swift */; };
 		4910C1112BB137DF00576A77 /* ParentalControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C1102BB137DF00576A77 /* ParentalControlUITestsLaunchTests.swift */; };
-		49BF48A32BC4B042005C52AE /* OTPVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A02BC4B042005C52AE /* OTPVerificationNetworkManager.swift */; };
-		49BF48A42BC4B042005C52AE /* OTPVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A02BC4B042005C52AE /* OTPVerificationNetworkManager.swift */; };
-		49BF48A52BC4B042005C52AE /* OTPVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A02BC4B042005C52AE /* OTPVerificationNetworkManager.swift */; };
-		49BF48A62BC4B042005C52AE /* LoginVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A12BC4B042005C52AE /* LoginVerificationNetworkManager.swift */; };
-		49BF48A72BC4B042005C52AE /* LoginVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A12BC4B042005C52AE /* LoginVerificationNetworkManager.swift */; };
-		49BF48A82BC4B042005C52AE /* LoginVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A12BC4B042005C52AE /* LoginVerificationNetworkManager.swift */; };
-		49BF48A92BC4B042005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A22BC4B042005C52AE /* LoginNetworkManager.swift */; };
-		49BF48AA2BC4B042005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A22BC4B042005C52AE /* LoginNetworkManager.swift */; };
-		49BF48AB2BC4B042005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48A22BC4B042005C52AE /* LoginNetworkManager.swift */; };
-		49BF48B02BC4B059005C52AE /* LoginVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AD2BC4B059005C52AE /* LoginVerificationModel.swift */; };
-		49BF48B12BC4B059005C52AE /* LoginVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AD2BC4B059005C52AE /* LoginVerificationModel.swift */; };
-		49BF48B22BC4B059005C52AE /* LoginVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AD2BC4B059005C52AE /* LoginVerificationModel.swift */; };
-		49BF48B32BC4B059005C52AE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AE2BC4B059005C52AE /* LoginModel.swift */; };
-		49BF48B42BC4B059005C52AE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AE2BC4B059005C52AE /* LoginModel.swift */; };
-		49BF48B52BC4B059005C52AE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AE2BC4B059005C52AE /* LoginModel.swift */; };
-		49BF48B62BC4B059005C52AE /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AF2BC4B059005C52AE /* OTPVerificationModel.swift */; };
-		49BF48B72BC4B059005C52AE /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AF2BC4B059005C52AE /* OTPVerificationModel.swift */; };
-		49BF48B82BC4B059005C52AE /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48AF2BC4B059005C52AE /* OTPVerificationModel.swift */; };
-		49BF48BD2BC4B065005C52AE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BA2BC4B065005C52AE /* LoginViewModel.swift */; };
-		49BF48BE2BC4B065005C52AE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BA2BC4B065005C52AE /* LoginViewModel.swift */; };
-		49BF48BF2BC4B065005C52AE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BA2BC4B065005C52AE /* LoginViewModel.swift */; };
-		49BF48C02BC4B065005C52AE /* LoginVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BB2BC4B065005C52AE /* LoginVerificationViewModel.swift */; };
-		49BF48C12BC4B065005C52AE /* LoginVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BB2BC4B065005C52AE /* LoginVerificationViewModel.swift */; };
-		49BF48C22BC4B065005C52AE /* LoginVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BB2BC4B065005C52AE /* LoginVerificationViewModel.swift */; };
-		49BF48C32BC4B065005C52AE /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BC2BC4B065005C52AE /* OTPVerificationViewModel.swift */; };
-		49BF48C42BC4B065005C52AE /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BC2BC4B065005C52AE /* OTPVerificationViewModel.swift */; };
-		49BF48C52BC4B065005C52AE /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48BC2BC4B065005C52AE /* OTPVerificationViewModel.swift */; };
 		49BF48C92BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */; };
 		49BF48CA2BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */; };
 		49BF48CB2BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */; };
@@ -86,6 +59,41 @@
 		49BF491C2BC4B29F005C52AE /* ChildDashboardStatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49062BC4B29F005C52AE /* ChildDashboardStatsView.xib */; };
 		49BF491D2BC4B29F005C52AE /* ChildDashboardStatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49062BC4B29F005C52AE /* ChildDashboardStatsView.xib */; };
 		49BF491E2BC4B29F005C52AE /* ChildDashboardStatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49062BC4B29F005C52AE /* ChildDashboardStatsView.xib */; };
+		49BF492F2BC4B648005C52AE /* UserSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF492D2BC4B648005C52AE /* UserSelectionViewController.swift */; };
+		49BF49302BC4B648005C52AE /* UserSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF492E2BC4B648005C52AE /* UserSelectionViewController.xib */; };
+		49BF49322BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */; };
+		49BF49332BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */; };
+		49BF49342BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */; };
+		49BF49362BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */; };
+		49BF49372BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */; };
+		49BF49382BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */; };
+		49BF493A2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */; };
+		49BF493B2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */; };
+		49BF493C2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */; };
+		49BF493E2BC4B697005C52AE /* UserChildSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF493D2BC4B697005C52AE /* UserChildSelectionView.xib */; };
+		49BF493F2BC4B697005C52AE /* UserChildSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF493D2BC4B697005C52AE /* UserChildSelectionView.xib */; };
+		49BF49402BC4B697005C52AE /* UserChildSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF493D2BC4B697005C52AE /* UserChildSelectionView.xib */; };
+		49BF49442BC4B929005C52AE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49432BC4B929005C52AE /* LoginViewModel.swift */; };
+		49BF49452BC4B929005C52AE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49432BC4B929005C52AE /* LoginViewModel.swift */; };
+		49BF49462BC4B929005C52AE /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49432BC4B929005C52AE /* LoginViewModel.swift */; };
+		49BF494C2BC4B946005C52AE /* LoginVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF494B2BC4B946005C52AE /* LoginVerificationViewModel.swift */; };
+		49BF494D2BC4B946005C52AE /* LoginVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF494B2BC4B946005C52AE /* LoginVerificationViewModel.swift */; };
+		49BF494E2BC4B946005C52AE /* LoginVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF494B2BC4B946005C52AE /* LoginVerificationViewModel.swift */; };
+		49BF49502BC4B950005C52AE /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF494F2BC4B950005C52AE /* OTPVerificationViewModel.swift */; };
+		49BF49512BC4B950005C52AE /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF494F2BC4B950005C52AE /* OTPVerificationViewModel.swift */; };
+		49BF49522BC4B950005C52AE /* OTPVerificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF494F2BC4B950005C52AE /* OTPVerificationViewModel.swift */; };
+		49BF49552BC4B9C9005C52AE /* LoginVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49542BC4B9C9005C52AE /* LoginVerificationModel.swift */; };
+		49BF49562BC4B9C9005C52AE /* LoginVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49542BC4B9C9005C52AE /* LoginVerificationModel.swift */; };
+		49BF49572BC4B9C9005C52AE /* LoginVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49542BC4B9C9005C52AE /* LoginVerificationModel.swift */; };
+		49BF49592BC4B9CF005C52AE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49582BC4B9CF005C52AE /* LoginModel.swift */; };
+		49BF495A2BC4B9CF005C52AE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49582BC4B9CF005C52AE /* LoginModel.swift */; };
+		49BF495B2BC4B9CF005C52AE /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49582BC4B9CF005C52AE /* LoginModel.swift */; };
+		49BF495D2BC4B9D8005C52AE /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF495C2BC4B9D8005C52AE /* OTPVerificationModel.swift */; };
+		49BF495E2BC4B9D8005C52AE /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF495C2BC4B9D8005C52AE /* OTPVerificationModel.swift */; };
+		49BF495F2BC4B9D8005C52AE /* OTPVerificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF495C2BC4B9D8005C52AE /* OTPVerificationModel.swift */; };
+		49BF49612BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */; };
+		49BF49622BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */; };
+		49BF49632BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,26 +128,11 @@
 		4910C10A2BB137DF00576A77 /* ParentalControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParentalControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4910C10E2BB137DF00576A77 /* ParentalControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalControlUITests.swift; sourceTree = "<group>"; };
 		4910C1102BB137DF00576A77 /* ParentalControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		49BF48A02BC4B042005C52AE /* OTPVerificationNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationNetworkManager.swift; sourceTree = "<group>"; };
-		49BF48A12BC4B042005C52AE /* LoginVerificationNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVerificationNetworkManager.swift; sourceTree = "<group>"; };
-		49BF48A22BC4B042005C52AE /* LoginNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNetworkManager.swift; sourceTree = "<group>"; };
-		49BF48AD2BC4B059005C52AE /* LoginVerificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVerificationModel.swift; sourceTree = "<group>"; };
-		49BF48AE2BC4B059005C52AE /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
-		49BF48AF2BC4B059005C52AE /* OTPVerificationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationModel.swift; sourceTree = "<group>"; };
-		49BF48BA2BC4B065005C52AE /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		49BF48BB2BC4B065005C52AE /* LoginVerificationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVerificationViewModel.swift; sourceTree = "<group>"; };
-		49BF48BC2BC4B065005C52AE /* OTPVerificationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewModel.swift; sourceTree = "<group>"; };
 		49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		49BF48C82BC4B0A2005C52AE /* LoggedInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoggedInViewController.xib; sourceTree = "<group>"; };
 		49BF48E32BC4B0FB005C52AE /* OTPVerificationNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationNetworkManager.swift; sourceTree = "<group>"; };
 		49BF48E42BC4B0FB005C52AE /* LoginNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetworkManager.swift; sourceTree = "<group>"; };
 		49BF48E52BC4B0FB005C52AE /* LoginVerificationNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVerificationNetworkManager.swift; sourceTree = "<group>"; };
-		49BF48E72BC4B0FB005C52AE /* LoginVerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVerificationModel.swift; sourceTree = "<group>"; };
-		49BF48E82BC4B0FB005C52AE /* OTPVerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationModel.swift; sourceTree = "<group>"; };
-		49BF48E92BC4B0FB005C52AE /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
-		49BF48EB2BC4B0FC005C52AE /* LoginVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVerificationViewModel.swift; sourceTree = "<group>"; };
-		49BF48EC2BC4B0FC005C52AE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		49BF48ED2BC4B0FC005C52AE /* OTPVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewModel.swift; sourceTree = "<group>"; };
 		49BF48EE2BC4B136005C52AE /* CustomEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmailTextField.swift; sourceTree = "<group>"; };
 		49BF48F22BC4B143005C52AE /* CustomEmailTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomEmailTextField.xib; sourceTree = "<group>"; };
 		49BF48F62BC4B151005C52AE /* CustomPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPasswordTextField.swift; sourceTree = "<group>"; };
@@ -152,6 +145,19 @@
 		49BF49042BC4B29F005C52AE /* ParentDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentDashboardViewController.swift; sourceTree = "<group>"; };
 		49BF49052BC4B29F005C52AE /* ParentDashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentDashboardViewController.xib; sourceTree = "<group>"; };
 		49BF49062BC4B29F005C52AE /* ChildDashboardStatsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildDashboardStatsView.xib; sourceTree = "<group>"; };
+		49BF492D2BC4B648005C52AE /* UserSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionViewController.swift; sourceTree = "<group>"; };
+		49BF492E2BC4B648005C52AE /* UserSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserSelectionViewController.xib; sourceTree = "<group>"; };
+		49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserParentSelectionView.swift; sourceTree = "<group>"; };
+		49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserParentSelectionView.xib; sourceTree = "<group>"; };
+		49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChildSelectionView.swift; sourceTree = "<group>"; };
+		49BF493D2BC4B697005C52AE /* UserChildSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserChildSelectionView.xib; sourceTree = "<group>"; };
+		49BF49432BC4B929005C52AE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		49BF494B2BC4B946005C52AE /* LoginVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVerificationViewModel.swift; sourceTree = "<group>"; };
+		49BF494F2BC4B950005C52AE /* OTPVerificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationViewModel.swift; sourceTree = "<group>"; };
+		49BF49542BC4B9C9005C52AE /* LoginVerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVerificationModel.swift; sourceTree = "<group>"; };
+		49BF49582BC4B9CF005C52AE /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		49BF495C2BC4B9D8005C52AE /* OTPVerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationModel.swift; sourceTree = "<group>"; };
+		49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,9 +212,6 @@
 				4910C0EC2BB137DD00576A77 /* SceneDelegate.swift */,
 				49BF48FE2BC4B29F005C52AE /* Dashboard */,
 				49BF48E12BC4B0FB005C52AE /* Authentication */,
-				49BF489F2BC4B042005C52AE /* Manager */,
-				49BF48AC2BC4B059005C52AE /* Model */,
-				49BF48B92BC4B065005C52AE /* ViewModel */,
 				4910C0F62BB137DF00576A77 /* Assets.xcassets */,
 				4910C0F82BB137DF00576A77 /* LaunchScreen.storyboard */,
 				4910C0FB2BB137DF00576A77 /* Info.plist */,
@@ -234,39 +237,6 @@
 			path = ParentalControlUITests;
 			sourceTree = "<group>";
 		};
-		49BF489F2BC4B042005C52AE /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				49BF48A02BC4B042005C52AE /* OTPVerificationNetworkManager.swift */,
-				49BF48A12BC4B042005C52AE /* LoginVerificationNetworkManager.swift */,
-				49BF48A22BC4B042005C52AE /* LoginNetworkManager.swift */,
-			);
-			name = Manager;
-			path = ../../CorenrollDemo/ParentalControlSoftware/Authentication/Manager;
-			sourceTree = "<group>";
-		};
-		49BF48AC2BC4B059005C52AE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				49BF48AD2BC4B059005C52AE /* LoginVerificationModel.swift */,
-				49BF48AE2BC4B059005C52AE /* LoginModel.swift */,
-				49BF48AF2BC4B059005C52AE /* OTPVerificationModel.swift */,
-			);
-			name = Model;
-			path = ../../CorenrollDemo/ParentalControlSoftware/Authentication/Model;
-			sourceTree = "<group>";
-		};
-		49BF48B92BC4B065005C52AE /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				49BF48BA2BC4B065005C52AE /* LoginViewModel.swift */,
-				49BF48BB2BC4B065005C52AE /* LoginVerificationViewModel.swift */,
-				49BF48BC2BC4B065005C52AE /* OTPVerificationViewModel.swift */,
-			);
-			name = ViewModel;
-			path = ../../CorenrollDemo/ParentalControlSoftware/Authentication/ViewModel;
-			sourceTree = "<group>";
-		};
 		49BF48C62BC4B06B005C52AE /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +248,7 @@
 				49BF48F22BC4B143005C52AE /* CustomEmailTextField.xib */,
 				49BF48F62BC4B151005C52AE /* CustomPasswordTextField.swift */,
 				49BF48FA2BC4B15D005C52AE /* CustomPasswordTextField.xib */,
+				49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -285,10 +256,11 @@
 		49BF48E12BC4B0FB005C52AE /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				49BF492C2BC4B62D005C52AE /* UserSelection */,
 				49BF48C62BC4B06B005C52AE /* View */,
 				49BF48E22BC4B0FB005C52AE /* Manager */,
-				49BF48E62BC4B0FB005C52AE /* Model */,
-				49BF48EA2BC4B0FC005C52AE /* ViewModel */,
+				49BF49532BC4B9B5005C52AE /* Model */,
+				49BF49422BC4B90F005C52AE /* ViewModel */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -301,26 +273,6 @@
 				49BF48E42BC4B0FB005C52AE /* LoginNetworkManager.swift */,
 			);
 			path = Manager;
-			sourceTree = "<group>";
-		};
-		49BF48E62BC4B0FB005C52AE /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				49BF48E72BC4B0FB005C52AE /* LoginVerificationModel.swift */,
-				49BF48E92BC4B0FB005C52AE /* LoginModel.swift */,
-				49BF48E82BC4B0FB005C52AE /* OTPVerificationModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		49BF48EA2BC4B0FC005C52AE /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				49BF48EC2BC4B0FC005C52AE /* LoginViewModel.swift */,
-				49BF48EB2BC4B0FC005C52AE /* LoginVerificationViewModel.swift */,
-				49BF48ED2BC4B0FC005C52AE /* OTPVerificationViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		49BF48FE2BC4B29F005C52AE /* Dashboard */ = {
@@ -337,6 +289,39 @@
 			);
 			name = Dashboard;
 			path = ../../CorenrollDemo/ParentalControlSoftware/Dashboard;
+			sourceTree = "<group>";
+		};
+		49BF492C2BC4B62D005C52AE /* UserSelection */ = {
+			isa = PBXGroup;
+			children = (
+				49BF492D2BC4B648005C52AE /* UserSelectionViewController.swift */,
+				49BF492E2BC4B648005C52AE /* UserSelectionViewController.xib */,
+				49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */,
+				49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */,
+				49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */,
+				49BF493D2BC4B697005C52AE /* UserChildSelectionView.xib */,
+			);
+			path = UserSelection;
+			sourceTree = "<group>";
+		};
+		49BF49422BC4B90F005C52AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				49BF49432BC4B929005C52AE /* LoginViewModel.swift */,
+				49BF494B2BC4B946005C52AE /* LoginVerificationViewModel.swift */,
+				49BF494F2BC4B950005C52AE /* OTPVerificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		49BF49532BC4B9B5005C52AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				49BF49542BC4B9C9005C52AE /* LoginVerificationModel.swift */,
+				49BF49582BC4B9CF005C52AE /* LoginModel.swift */,
+				49BF495C2BC4B9D8005C52AE /* OTPVerificationModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,9 +433,12 @@
 				4910C0FA2BB137DF00576A77 /* LaunchScreen.storyboard in Resources */,
 				49BF490A2BC4B29F005C52AE /* ParentDashboardStatsView.xib in Resources */,
 				49BF49072BC4B29F005C52AE /* ChildDashboardViewController.xib in Resources */,
+				49BF49302BC4B648005C52AE /* UserSelectionViewController.xib in Resources */,
+				49BF49362BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */,
 				49BF48FB2BC4B15D005C52AE /* CustomPasswordTextField.xib in Resources */,
 				4910C0F72BB137DF00576A77 /* Assets.xcassets in Resources */,
 				4910C0F22BB137DD00576A77 /* Main.storyboard in Resources */,
+				49BF493E2BC4B697005C52AE /* UserChildSelectionView.xib in Resources */,
 				49BF48F32BC4B143005C52AE /* CustomEmailTextField.xib in Resources */,
 				49BF48CC2BC4B0A2005C52AE /* LoggedInViewController.xib in Resources */,
 			);
@@ -460,12 +448,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BF493F2BC4B697005C52AE /* UserChildSelectionView.xib in Resources */,
 				49BF490B2BC4B29F005C52AE /* ParentDashboardStatsView.xib in Resources */,
 				49BF49082BC4B29F005C52AE /* ChildDashboardViewController.xib in Resources */,
 				49BF491D2BC4B29F005C52AE /* ChildDashboardStatsView.xib in Resources */,
 				49BF48CD2BC4B0A2005C52AE /* LoggedInViewController.xib in Resources */,
 				49BF491A2BC4B29F005C52AE /* ParentDashboardViewController.xib in Resources */,
 				49BF48FC2BC4B15D005C52AE /* CustomPasswordTextField.xib in Resources */,
+				49BF49372BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */,
 				49BF48F42BC4B143005C52AE /* CustomEmailTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,12 +464,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BF49402BC4B697005C52AE /* UserChildSelectionView.xib in Resources */,
 				49BF490C2BC4B29F005C52AE /* ParentDashboardStatsView.xib in Resources */,
 				49BF49092BC4B29F005C52AE /* ChildDashboardViewController.xib in Resources */,
 				49BF491E2BC4B29F005C52AE /* ChildDashboardStatsView.xib in Resources */,
 				49BF48CE2BC4B0A2005C52AE /* LoggedInViewController.xib in Resources */,
 				49BF491B2BC4B29F005C52AE /* ParentDashboardViewController.xib in Resources */,
 				49BF48FD2BC4B15D005C52AE /* CustomPasswordTextField.xib in Resources */,
+				49BF49382BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */,
 				49BF48F52BC4B143005C52AE /* CustomEmailTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,25 +483,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49BF48B62BC4B059005C52AE /* OTPVerificationModel.swift in Sources */,
+				49BF495D2BC4B9D8005C52AE /* OTPVerificationModel.swift in Sources */,
+				49BF49592BC4B9CF005C52AE /* LoginModel.swift in Sources */,
 				49BF48EF2BC4B136005C52AE /* CustomEmailTextField.swift in Sources */,
+				49BF49612BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */,
 				4910C0F52BB137DD00576A77 /* ParentalControl.xcdatamodeld in Sources */,
-				49BF48C02BC4B065005C52AE /* LoginVerificationViewModel.swift in Sources */,
-				49BF48BD2BC4B065005C52AE /* LoginViewModel.swift in Sources */,
 				4910C0EF2BB137DD00576A77 /* LoginScreenViewController.swift in Sources */,
 				49BF49132BC4B29F005C52AE /* ChildDashboardViewController.swift in Sources */,
 				49BF48C92BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */,
 				4910C0EB2BB137DD00576A77 /* AppDelegate.swift in Sources */,
+				49BF494C2BC4B946005C52AE /* LoginVerificationViewModel.swift in Sources */,
 				49BF490D2BC4B29F005C52AE /* ParentDashboardStatsView.swift in Sources */,
 				4910C0ED2BB137DD00576A77 /* SceneDelegate.swift in Sources */,
+				49BF49442BC4B929005C52AE /* LoginViewModel.swift in Sources */,
+				49BF492F2BC4B648005C52AE /* UserSelectionViewController.swift in Sources */,
+				49BF493A2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */,
+				49BF49502BC4B950005C52AE /* OTPVerificationViewModel.swift in Sources */,
 				49BF49102BC4B29F005C52AE /* ChildDashboardStatsView.swift in Sources */,
-				49BF48C32BC4B065005C52AE /* OTPVerificationViewModel.swift in Sources */,
-				49BF48B32BC4B059005C52AE /* LoginModel.swift in Sources */,
-				49BF48B02BC4B059005C52AE /* LoginVerificationModel.swift in Sources */,
 				49BF49162BC4B29F005C52AE /* ParentDashboardViewController.swift in Sources */,
-				49BF48A32BC4B042005C52AE /* OTPVerificationNetworkManager.swift in Sources */,
-				49BF48A62BC4B042005C52AE /* LoginVerificationNetworkManager.swift in Sources */,
-				49BF48A92BC4B042005C52AE /* LoginNetworkManager.swift in Sources */,
+				49BF49322BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */,
+				49BF49552BC4B9C9005C52AE /* LoginVerificationModel.swift in Sources */,
 				49BF48F72BC4B151005C52AE /* CustomPasswordTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,23 +511,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49BF49622BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */,
 				49BF48CA2BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */,
 				49BF490E2BC4B29F005C52AE /* ParentDashboardStatsView.swift in Sources */,
+				49BF494D2BC4B946005C52AE /* LoginVerificationViewModel.swift in Sources */,
+				49BF49452BC4B929005C52AE /* LoginViewModel.swift in Sources */,
 				49BF48F02BC4B136005C52AE /* CustomEmailTextField.swift in Sources */,
 				4910C1052BB137DF00576A77 /* ParentalControlTests.swift in Sources */,
-				49BF48B42BC4B059005C52AE /* LoginModel.swift in Sources */,
-				49BF48A42BC4B042005C52AE /* OTPVerificationNetworkManager.swift in Sources */,
-				49BF48B12BC4B059005C52AE /* LoginVerificationModel.swift in Sources */,
-				49BF48BE2BC4B065005C52AE /* LoginViewModel.swift in Sources */,
 				49BF49142BC4B29F005C52AE /* ChildDashboardViewController.swift in Sources */,
-				49BF48C42BC4B065005C52AE /* OTPVerificationViewModel.swift in Sources */,
-				49BF48C12BC4B065005C52AE /* LoginVerificationViewModel.swift in Sources */,
-				49BF48AA2BC4B042005C52AE /* LoginNetworkManager.swift in Sources */,
+				49BF49512BC4B950005C52AE /* OTPVerificationViewModel.swift in Sources */,
+				49BF49332BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */,
 				49BF49172BC4B29F005C52AE /* ParentDashboardViewController.swift in Sources */,
-				49BF48A72BC4B042005C52AE /* LoginVerificationNetworkManager.swift in Sources */,
+				49BF495A2BC4B9CF005C52AE /* LoginModel.swift in Sources */,
+				49BF49562BC4B9C9005C52AE /* LoginVerificationModel.swift in Sources */,
+				49BF495E2BC4B9D8005C52AE /* OTPVerificationModel.swift in Sources */,
+				49BF493B2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */,
 				49BF48F82BC4B151005C52AE /* CustomPasswordTextField.swift in Sources */,
 				49BF49112BC4B29F005C52AE /* ChildDashboardStatsView.swift in Sources */,
-				49BF48B72BC4B059005C52AE /* OTPVerificationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,23 +536,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				49BF48F12BC4B136005C52AE /* CustomEmailTextField.swift in Sources */,
+				49BF49522BC4B950005C52AE /* OTPVerificationViewModel.swift in Sources */,
 				4910C10F2BB137DF00576A77 /* ParentalControlUITests.swift in Sources */,
-				49BF48B52BC4B059005C52AE /* LoginModel.swift in Sources */,
-				49BF48A82BC4B042005C52AE /* LoginVerificationNetworkManager.swift in Sources */,
+				49BF49632BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */,
 				49BF48CB2BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */,
 				49BF49182BC4B29F005C52AE /* ParentDashboardViewController.swift in Sources */,
-				49BF48C52BC4B065005C52AE /* OTPVerificationViewModel.swift in Sources */,
+				49BF495B2BC4B9CF005C52AE /* LoginModel.swift in Sources */,
+				49BF49342BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */,
 				4910C1112BB137DF00576A77 /* ParentalControlUITestsLaunchTests.swift in Sources */,
+				49BF49572BC4B9C9005C52AE /* LoginVerificationModel.swift in Sources */,
 				49BF49152BC4B29F005C52AE /* ChildDashboardViewController.swift in Sources */,
-				49BF48C22BC4B065005C52AE /* LoginVerificationViewModel.swift in Sources */,
 				49BF490F2BC4B29F005C52AE /* ParentDashboardStatsView.swift in Sources */,
-				49BF48B82BC4B059005C52AE /* OTPVerificationModel.swift in Sources */,
+				49BF494E2BC4B946005C52AE /* LoginVerificationViewModel.swift in Sources */,
+				49BF495F2BC4B9D8005C52AE /* OTPVerificationModel.swift in Sources */,
+				49BF49462BC4B929005C52AE /* LoginViewModel.swift in Sources */,
 				49BF48F92BC4B151005C52AE /* CustomPasswordTextField.swift in Sources */,
-				49BF48A52BC4B042005C52AE /* OTPVerificationNetworkManager.swift in Sources */,
-				49BF48B22BC4B059005C52AE /* LoginVerificationModel.swift in Sources */,
-				49BF48AB2BC4B042005C52AE /* LoginNetworkManager.swift in Sources */,
+				49BF493C2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */,
 				49BF49122BC4B29F005C52AE /* ChildDashboardStatsView.swift in Sources */,
-				49BF48BF2BC4B065005C52AE /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
