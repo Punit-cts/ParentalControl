@@ -212,6 +212,7 @@
 				4910C0EA2BB137DD00576A77 /* AppDelegate.swift */,
 				4910C0EC2BB137DD00576A77 /* SceneDelegate.swift */,
 				49BF48FE2BC4B29F005C52AE /* Dashboard */,
+				49BF492C2BC4B62D005C52AE /* UserSelection */,
 				49BF48E12BC4B0FB005C52AE /* Authentication */,
 				4910C0F62BB137DF00576A77 /* Assets.xcassets */,
 				4910C0F82BB137DF00576A77 /* LaunchScreen.storyboard */,
@@ -256,7 +257,6 @@
 		49BF48E12BC4B0FB005C52AE /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				49BF492C2BC4B62D005C52AE /* UserSelection */,
 				49BF48C62BC4B06B005C52AE /* View */,
 				49BF49692BC4C981005C52AE /* Network */,
 				49BF49532BC4B9B5005C52AE /* Model */,
