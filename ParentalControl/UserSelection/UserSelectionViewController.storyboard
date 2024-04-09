@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--User Selection View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="UserSelectionViewController" customModule="ParentalControl" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jba-Hw-9Xu" customClass="UserParentSelectionView" customModule="ParentalControl" customModuleProvider="target">
+                                <rect key="frame" x="32" y="238" width="326" height="127"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="tJq-X7-nNU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tnh-Bt-bCU" customClass="UserChildSelectionView" customModule="ParentalControl" customModuleProvider="target">
+                                <rect key="frame" x="32" y="434" width="326" height="127"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="127" id="EYO-M3-Uvt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.81346767070000003" green="0.99063362880000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="tnh-Bt-bCU" firstAttribute="top" secondItem="jba-Hw-9Xu" secondAttribute="bottom" constant="69" id="0z8-ms-Vyn"/>
+                            <constraint firstItem="tnh-Bt-bCU" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="5FX-oF-qRm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="tnh-Bt-bCU" secondAttribute="trailing" constant="35" id="b8c-90-UWb"/>
+                            <constraint firstItem="jba-Hw-9Xu" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="dUQ-Zq-74c"/>
+                            <constraint firstItem="jba-Hw-9Xu" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="179" id="fug-kR-CZ5"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jba-Hw-9Xu" secondAttribute="trailing" constant="35" id="j2r-CU-yyz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="childView" destination="tnh-Bt-bCU" id="eZu-GA-6lN"/>
+                        <outlet property="parentView" destination="jba-Hw-9Xu" id="pFg-Pz-l9v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14.503816793893129" y="-28.169014084507044"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

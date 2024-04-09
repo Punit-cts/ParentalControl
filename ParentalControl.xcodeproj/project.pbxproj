@@ -17,6 +17,8 @@
 		4910C1052BB137DF00576A77 /* ParentalControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C1042BB137DF00576A77 /* ParentalControlTests.swift */; };
 		4910C10F2BB137DF00576A77 /* ParentalControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C10E2BB137DF00576A77 /* ParentalControlUITests.swift */; };
 		4910C1112BB137DF00576A77 /* ParentalControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4910C1102BB137DF00576A77 /* ParentalControlUITestsLaunchTests.swift */; };
+		4941957D2BC4CD8E00733E5A /* UserSelectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4941957C2BC4CD8E00733E5A /* UserSelectionViewController.storyboard */; };
+		4941957F2BC4CF3400733E5A /* UserParentSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4941957E2BC4CF3400733E5A /* UserParentSelectionView.xib */; };
 		49BF48C92BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */; };
 		49BF48CA2BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */; };
 		49BF48CB2BC4B0A2005C52AE /* LoggedInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */; };
@@ -60,13 +62,9 @@
 		49BF491D2BC4B29F005C52AE /* ChildDashboardStatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49062BC4B29F005C52AE /* ChildDashboardStatsView.xib */; };
 		49BF491E2BC4B29F005C52AE /* ChildDashboardStatsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49062BC4B29F005C52AE /* ChildDashboardStatsView.xib */; };
 		49BF492F2BC4B648005C52AE /* UserSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF492D2BC4B648005C52AE /* UserSelectionViewController.swift */; };
-		49BF49302BC4B648005C52AE /* UserSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF492E2BC4B648005C52AE /* UserSelectionViewController.xib */; };
 		49BF49322BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */; };
 		49BF49332BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */; };
 		49BF49342BC4B66C005C52AE /* UserParentSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */; };
-		49BF49362BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */; };
-		49BF49372BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */; };
-		49BF49382BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */; };
 		49BF493A2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */; };
 		49BF493B2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */; };
 		49BF493C2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */; };
@@ -130,6 +128,8 @@
 		4910C10A2BB137DF00576A77 /* ParentalControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParentalControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4910C10E2BB137DF00576A77 /* ParentalControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalControlUITests.swift; sourceTree = "<group>"; };
 		4910C1102BB137DF00576A77 /* ParentalControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4941957C2BC4CD8E00733E5A /* UserSelectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserSelectionViewController.storyboard; sourceTree = "<group>"; };
+		4941957E2BC4CF3400733E5A /* UserParentSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserParentSelectionView.xib; sourceTree = "<group>"; };
 		49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		49BF48C82BC4B0A2005C52AE /* LoggedInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoggedInViewController.xib; sourceTree = "<group>"; };
 		49BF48EE2BC4B136005C52AE /* CustomEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmailTextField.swift; sourceTree = "<group>"; };
@@ -145,9 +145,7 @@
 		49BF49052BC4B29F005C52AE /* ParentDashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentDashboardViewController.xib; sourceTree = "<group>"; };
 		49BF49062BC4B29F005C52AE /* ChildDashboardStatsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildDashboardStatsView.xib; sourceTree = "<group>"; };
 		49BF492D2BC4B648005C52AE /* UserSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSelectionViewController.swift; sourceTree = "<group>"; };
-		49BF492E2BC4B648005C52AE /* UserSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserSelectionViewController.xib; sourceTree = "<group>"; };
 		49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserParentSelectionView.swift; sourceTree = "<group>"; };
-		49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserParentSelectionView.xib; sourceTree = "<group>"; };
 		49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserChildSelectionView.swift; sourceTree = "<group>"; };
 		49BF493D2BC4B697005C52AE /* UserChildSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserChildSelectionView.xib; sourceTree = "<group>"; };
 		49BF49432BC4B929005C52AE /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -285,9 +283,9 @@
 			isa = PBXGroup;
 			children = (
 				49BF492D2BC4B648005C52AE /* UserSelectionViewController.swift */,
-				49BF492E2BC4B648005C52AE /* UserSelectionViewController.xib */,
+				4941957C2BC4CD8E00733E5A /* UserSelectionViewController.storyboard */,
 				49BF49312BC4B66C005C52AE /* UserParentSelectionView.swift */,
-				49BF49352BC4B67E005C52AE /* UserParentSelectionView.xib */,
+				4941957E2BC4CF3400733E5A /* UserParentSelectionView.xib */,
 				49BF49392BC4B68C005C52AE /* UserChildSelectionView.swift */,
 				49BF493D2BC4B697005C52AE /* UserChildSelectionView.xib */,
 			);
@@ -433,8 +431,8 @@
 				4910C0FA2BB137DF00576A77 /* LaunchScreen.storyboard in Resources */,
 				49BF490A2BC4B29F005C52AE /* ParentDashboardStatsView.xib in Resources */,
 				49BF49072BC4B29F005C52AE /* ChildDashboardViewController.xib in Resources */,
-				49BF49302BC4B648005C52AE /* UserSelectionViewController.xib in Resources */,
-				49BF49362BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */,
+				4941957F2BC4CF3400733E5A /* UserParentSelectionView.xib in Resources */,
+				4941957D2BC4CD8E00733E5A /* UserSelectionViewController.storyboard in Resources */,
 				49BF48FB2BC4B15D005C52AE /* CustomPasswordTextField.xib in Resources */,
 				4910C0F72BB137DF00576A77 /* Assets.xcassets in Resources */,
 				4910C0F22BB137DD00576A77 /* Main.storyboard in Resources */,
@@ -455,7 +453,6 @@
 				49BF48CD2BC4B0A2005C52AE /* LoggedInViewController.xib in Resources */,
 				49BF491A2BC4B29F005C52AE /* ParentDashboardViewController.xib in Resources */,
 				49BF48FC2BC4B15D005C52AE /* CustomPasswordTextField.xib in Resources */,
-				49BF49372BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */,
 				49BF48F42BC4B143005C52AE /* CustomEmailTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,7 +468,6 @@
 				49BF48CE2BC4B0A2005C52AE /* LoggedInViewController.xib in Resources */,
 				49BF491B2BC4B29F005C52AE /* ParentDashboardViewController.xib in Resources */,
 				49BF48FD2BC4B15D005C52AE /* CustomPasswordTextField.xib in Resources */,
-				49BF49382BC4B67E005C52AE /* UserParentSelectionView.xib in Resources */,
 				49BF48F52BC4B143005C52AE /* CustomEmailTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
