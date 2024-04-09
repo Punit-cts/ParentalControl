@@ -41,6 +41,7 @@ class UserParentSelectionView: UIView {
     
     @objc func viewDashboard(_ sender: UIButton) {
         let vc = ParentDashboardViewController()
+        vc.navigationController?.pushViewController(vc, animated: true)
         
     }
 

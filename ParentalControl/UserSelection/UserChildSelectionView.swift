@@ -33,9 +33,16 @@ class UserChildSelectionView: UIView {
             self.contentView.leadingAnchor.constraint(equalTo: self.leadingAnchor),
             self.contentView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
         ])
+        self.contentView.addTapGesture(tapNumber: 1, target: self, action: #selector(viewDashboard))
     }
 
     @IBOutlet weak var childLabel: UILabel!
     @IBOutlet weak var childImageView: UIImageView!
+    
+    @objc func viewDashboard(_ sender: UIButton) {
+        let vc = ChildDashboardViewController()
+        vc.navigationController?.pushViewController(vc, animated: true)
+        
+    }
     
 }

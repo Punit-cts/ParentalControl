@@ -32,7 +32,6 @@ class CustomEmailTextField: UIView {
         let customview = Bundle.main.loadNibNamed("CustomEmailTextField", owner: self, options: nil)![0] as! UIView
         customview.frame = self.bounds
         addSubview(customview)
-        
     }
     
     func validateEmail() -> Bool {
