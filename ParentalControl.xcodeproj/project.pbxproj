@@ -94,6 +94,8 @@
 		49BF49612BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */; };
 		49BF49622BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */; };
 		49BF49632BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */; };
+		49BF49662BC4C959005C52AE /* LoginVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49652BC4C959005C52AE /* LoginVerificationNetworkManager.swift */; };
+		49BF49682BC4C96C005C52AE /* OTPVerificationNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BF49672BC4C96C005C52AE /* OTPVerificationNetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,9 +132,6 @@
 		4910C1102BB137DF00576A77 /* ParentalControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentalControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		49BF48C72BC4B0A2005C52AE /* LoggedInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInViewController.swift; sourceTree = "<group>"; };
 		49BF48C82BC4B0A2005C52AE /* LoggedInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoggedInViewController.xib; sourceTree = "<group>"; };
-		49BF48E32BC4B0FB005C52AE /* OTPVerificationNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationNetworkManager.swift; sourceTree = "<group>"; };
-		49BF48E42BC4B0FB005C52AE /* LoginNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetworkManager.swift; sourceTree = "<group>"; };
-		49BF48E52BC4B0FB005C52AE /* LoginVerificationNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVerificationNetworkManager.swift; sourceTree = "<group>"; };
 		49BF48EE2BC4B136005C52AE /* CustomEmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEmailTextField.swift; sourceTree = "<group>"; };
 		49BF48F22BC4B143005C52AE /* CustomEmailTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomEmailTextField.xib; sourceTree = "<group>"; };
 		49BF48F62BC4B151005C52AE /* CustomPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPasswordTextField.swift; sourceTree = "<group>"; };
@@ -158,6 +157,8 @@
 		49BF49582BC4B9CF005C52AE /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		49BF495C2BC4B9D8005C52AE /* OTPVerificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationModel.swift; sourceTree = "<group>"; };
 		49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetworkManager.swift; sourceTree = "<group>"; };
+		49BF49652BC4C959005C52AE /* LoginVerificationNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVerificationNetworkManager.swift; sourceTree = "<group>"; };
+		49BF49672BC4C96C005C52AE /* OTPVerificationNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationNetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +249,6 @@
 				49BF48F22BC4B143005C52AE /* CustomEmailTextField.xib */,
 				49BF48F62BC4B151005C52AE /* CustomPasswordTextField.swift */,
 				49BF48FA2BC4B15D005C52AE /* CustomPasswordTextField.xib */,
-				49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,21 +258,11 @@
 			children = (
 				49BF492C2BC4B62D005C52AE /* UserSelection */,
 				49BF48C62BC4B06B005C52AE /* View */,
-				49BF48E22BC4B0FB005C52AE /* Manager */,
+				49BF49692BC4C981005C52AE /* Network */,
 				49BF49532BC4B9B5005C52AE /* Model */,
 				49BF49422BC4B90F005C52AE /* ViewModel */,
 			);
 			path = Authentication;
-			sourceTree = "<group>";
-		};
-		49BF48E22BC4B0FB005C52AE /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-				49BF48E32BC4B0FB005C52AE /* OTPVerificationNetworkManager.swift */,
-				49BF48E52BC4B0FB005C52AE /* LoginVerificationNetworkManager.swift */,
-				49BF48E42BC4B0FB005C52AE /* LoginNetworkManager.swift */,
-			);
-			path = Manager;
 			sourceTree = "<group>";
 		};
 		49BF48FE2BC4B29F005C52AE /* Dashboard */ = {
@@ -322,6 +312,16 @@
 				49BF495C2BC4B9D8005C52AE /* OTPVerificationModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		49BF49692BC4C981005C52AE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				49BF49602BC4BA1B005C52AE /* LoginNetworkManager.swift */,
+				49BF49652BC4C959005C52AE /* LoginVerificationNetworkManager.swift */,
+				49BF49672BC4C96C005C52AE /* OTPVerificationNetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -484,6 +484,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49BF495D2BC4B9D8005C52AE /* OTPVerificationModel.swift in Sources */,
+				49BF49682BC4C96C005C52AE /* OTPVerificationNetworkManager.swift in Sources */,
 				49BF49592BC4B9CF005C52AE /* LoginModel.swift in Sources */,
 				49BF48EF2BC4B136005C52AE /* CustomEmailTextField.swift in Sources */,
 				49BF49612BC4BA1B005C52AE /* LoginNetworkManager.swift in Sources */,
@@ -496,6 +497,7 @@
 				49BF490D2BC4B29F005C52AE /* ParentDashboardStatsView.swift in Sources */,
 				4910C0ED2BB137DD00576A77 /* SceneDelegate.swift in Sources */,
 				49BF49442BC4B929005C52AE /* LoginViewModel.swift in Sources */,
+				49BF49662BC4C959005C52AE /* LoginVerificationNetworkManager.swift in Sources */,
 				49BF492F2BC4B648005C52AE /* UserSelectionViewController.swift in Sources */,
 				49BF493A2BC4B68C005C52AE /* UserChildSelectionView.swift in Sources */,
 				49BF49502BC4B950005C52AE /* OTPVerificationViewModel.swift in Sources */,

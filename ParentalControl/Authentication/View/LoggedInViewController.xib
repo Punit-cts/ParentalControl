@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoggedInViewController" customModule="ParentalControl" customModuleProvider="target">
             <connections>
+                <outlet property="otpTextField" destination="oej-dV-7hv" id="axm-Ep-U4o"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -41,6 +42,9 @@
                     </constraints>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="filled" title="Verify OTP" subtitle="" cornerStyle="capsule"/>
+                    <connections>
+                        <action selector="verifyOTPButton:" destination="-1" eventType="touchUpInside" id="IkG-dc-VGM"/>
+                    </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A six-numbered OTP will be delivered" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPT-E9-hVg">
                     <rect key="frame" x="34" y="199" width="304" height="17"/>
